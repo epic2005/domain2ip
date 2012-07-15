@@ -3,7 +3,6 @@
 
 import sys
 import socket
-import re
 
 def getip(domain):
 	ip = socket.gethostbyname(domain)
